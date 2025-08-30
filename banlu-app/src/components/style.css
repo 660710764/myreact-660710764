@@ -1,0 +1,17 @@
+.user_card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user_card:hover {
+  box-shadow: 0 15px 32px rgba(0,0,0,0.35), 0 2px 8px rgb(73, 73, 73);
+  transform: scale(1.05);
+}
+
+.todo_items {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo_items:hover {
+  box-shadow: 0 15px 32px rgba(0,0,0,0.35), 0 2px 8px rgb(73, 73, 73);
+  transform: scale(1.05);
+}
