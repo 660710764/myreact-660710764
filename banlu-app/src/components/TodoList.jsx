@@ -5,10 +5,11 @@ const TodoList = () => {
     const todos = [
         { id: 1, text: 'ศึกษาภาษา HTML CSS', completed: true },
         { id: 2, text: 'ศึกษาภาษา Javascript', completed: true },
-        { id: 3, text: 'ฝึกทำโจทย์ Javascirpt', completed: true },
-        { id: 4, text: 'ศึกษา Library React', completed: true },
-        { id: 5, text: 'เชื่อม Backend และ FrontEnd', completed: false },
-        { id: 6, text: 'ทำ Website และ Deploy', completed: false }
+        { id: 3, text: 'ศึกษา Library React', completed: true },
+        { id: 4, text: 'ศึกษาภาษา Golang', completed: true },
+        { id: 5, text: 'ศึกษาการเขียน API', completed: false },
+        { id: 6, text: 'เชื่อม Backend และ FrontEnd', completed: false },
+        { id: 7, text: 'ทำ Website และ Deploy', completed: false }
     ];
     
     const completedCount = todos.filter(todo => todo.completed).length;
